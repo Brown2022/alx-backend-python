@@ -4,12 +4,12 @@ from parameterized import parameterized
 from typing import Dict, Tuple, Union
 import unittest
 from unittest.mock import patch, Mock
-from utils import access_nested_map, get_jason, memoize
+from utils import access_nested_map, get_json, memoize
 
 
 class TestAccessNestedMap(unittest.TestCase):
-     """ Parameterize a unit test."""
-     @parameterized.expand([
+    """ Parameterize a unit test."""
+    @parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2}),
         ({"a": {"b": 2}}, ("a", "b"), 2)
