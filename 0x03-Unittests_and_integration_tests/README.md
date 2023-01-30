@@ -23,12 +23,14 @@ $ python -m unittest path/to/test_file.py
 - [parameterized](https://pypi.org/project/parameterized/)
 
 - [Memoization](https://en.wikipedia.org/wiki/Memoization)
-```
+
 Required Files
-utils.py (or download)
-client.py (or download)
-fixtures.py (or download)
-```
+- [utils.py](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py) (or download)
+
+- [client.py](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py) (or download)
+
+- [fixtures.py](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py) (or download)
+
 <strong>Tasks</strong>
 
 <h3>0. Parameterize a unit test</h3>
